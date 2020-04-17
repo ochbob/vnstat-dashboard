@@ -133,7 +133,7 @@ class vnStat {
 					}
 				}
 
-                                usort($trafficData, sortingFunction);
+                                usort($trafficData, "sortingFunction");
 
 			} else if ($type == 'graph') {
 				foreach ($this->vnstatData['interfaces'][$arrayIndex]['traffic']['hour'.$typeAppend] as $traffic) {
