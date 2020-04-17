@@ -15,7 +15,7 @@ This dashboard is an adaptation of vnstat-php-frontend by bjd using Bootstrap wr
 ``$ docker push mrdoob/vnstat:latest``
 
 ### How to start it
-``$ docker run --name vnstat-dashboard -p 80:80 -v /usr/bin/vnstat:/usr/bin/vnstat -v /var/lib/vnstat:/var/lib/vnstat -d mrdoob/vnstat:latest``
+``$ docker run --name vnstat -p 80:80 -v /usr/bin/vnstat:/usr/bin/vnstat -v /var/lib/vnstat:/var/lib/vnstat -d mrdoob/vnstat:latest``
 
 ### How to stop it
 ``$ docker stop vnstat``
