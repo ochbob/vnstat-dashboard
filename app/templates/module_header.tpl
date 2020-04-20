@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Network Traffic ({$current_interface})</a>
 		<div class="switch">Dark mode:
