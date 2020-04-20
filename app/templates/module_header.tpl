@@ -17,9 +17,6 @@
     <nav class="navbar sticky-top navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Network Traffic ({$current_interface})</a>
-		<div class="switch">Dark mode:
-			<span class="inner-switch">OFF</span>
-		</div>
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Interface Selection
