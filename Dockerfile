@@ -3,7 +3,7 @@ FROM php:7.4-apache
 MAINTAINER Alex Marston <alexander.marston@gmail.com>
 
 # Install Git
-RUN apt-get update && apt-get upgrade && apt-get install -y git unzip
+RUN apt-get update && apt-get install -y git unzip
 
 
 # Install Composer to handle dependencies
