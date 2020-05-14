@@ -3,10 +3,8 @@ FROM php:7.4-apache
 MAINTAINER Alex Marston <alexander.marston@gmail.com>
 
 # Install Git
-RUN apt-get update -yqq \
-    apt-get upgrade -yqq \
-    apt-get install -y git unzip \
-    apt-get autoremove -yqq
+RUN apt-get update && apt-get upgrade && apt-get install -y git unzip
+
 
 # Install Composer to handle dependencies
 RUN curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
