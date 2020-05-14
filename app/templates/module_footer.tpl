@@ -1,9 +1,6 @@
     <footer class="footer">
         <div class="container">
-           <p style="text-align: center">
-            <span class="text-muted">Copyright (C) {$year} Alexander Marston | Mod from  MrDoob to DARKMODE EDITION
-                <a href="https://hub.docker.com/r/mrdoob/vnstat">vnstat-dashboard dockerhub</a>
-            </span></p>
+           <p style="text-align: center"><span class="text-muted">Copyright (C) {$year} Alexander Marston | Mod from  MrDoob</span></p>
         </div>
     </footer>
 
