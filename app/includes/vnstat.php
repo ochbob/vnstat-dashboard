@@ -80,7 +80,7 @@ class vnStat {
 		foreach($this->vnstatData['interfaces'] as $interface) {
 			array_push($vnstatInterfaces, $interface['id']);
 		}
-
+        asort($vnstatInterfaces);
 		return $vnstatInterfaces;
 	}
 
@@ -133,7 +133,7 @@ class vnStat {
 					}
 				}
 
-                                usort($trafficData, "sortingFunction");
+                                usort($trafficData, sortingFunction);
 
 			} else if ($type == 'graph') {
 				foreach ($this->vnstatData['interfaces'][$arrayIndex]['traffic']['hour'.$typeAppend] as $traffic) {
