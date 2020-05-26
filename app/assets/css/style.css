@@ -1,4 +1,5 @@
-/* Copyright (C) 2019 Alexander Marston (alexander.marston@gmail.com)
+/*
+Copyright (C) 2019 Alexander Marston (alexander.marston@gmail.com)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -21,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     display: block;
     height: 0;
     overflow-y: hidden;
-}
+} 
 /* bootstrap hack end */
 
 /* Sticky footer styles
@@ -32,12 +33,6 @@ html {
 }
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
-  background: linear-gradient(to right, rgb(189, 195, 199), rgb(44, 62, 80));
-  border-color: #00000;
-  color: #000000;
-}
-.table {
- color: #000000;
 }
 .footer {
   position: absolute;
@@ -45,17 +40,11 @@ body {
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
-  background-color: #222;
-  color: #e6e6e6
+  background-color: #f5f5f5;
 }
 .nav-tabs {
   margin-bottom: 10px;
 }
 .navbar {
   margin-bottom: 25px;
-}
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
- background-color: #000000;
- color: #FFFFFF;
- border-color: #e6e6e6;
 }
